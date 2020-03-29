@@ -1,6 +1,6 @@
 <template>
   <v-app>
-      <Nav/>
+    <Nav/>
     <v-content>
       <v-container grid-list-sm>
         <slot/>
