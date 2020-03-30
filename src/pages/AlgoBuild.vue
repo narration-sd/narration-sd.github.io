@@ -86,15 +86,33 @@
         const objects = [
           {
             objectID: 1,
-            name: "Foo"
+            name: "Foo",
+            path: "",
+            keywords: ""
           },
           {
             objectID: 2,
-            name: "Combat with Hardware"
+            name: "Combat with Hardware",
+            path: "",
+            keywords: ""
           },
           {
             objectID: 3,
-            name: "combat with hardware"
+            name: "combat with hardware",
+            path: "",
+            keywords: ""
+          },
+          {
+            objectID: 4,
+            name: "Medical Shields for 3d Printing",
+            path: "medical-shields-for-3d-printing",
+            keywords: "medical personnel doctor nurse protection hospital ambulance"
+          },
+          {
+            objectID: 5,
+            name: "MIT Emergency Ventilator",
+            path: "mit-emergency-ventilator",
+            keywords: "patient recovery equipment helper treatment"
           }
         ]
 
