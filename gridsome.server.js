@@ -24,15 +24,15 @@ module.exports = function (api) {
 
     console.log( data.gitapi.organization.repositories.nodes )
 
-    for ( const doc of data.gitapi.organization.repositories.nodes ) {
-      createPage({
-        path: `/doc/${doc.name}`,
-        component: './src/templates/Doc.vue',
-        context: {
-          id: doc.id,
-          name: doc.name
-        }
-      })
-    }
+    // for ( const doc of data.gitapi.organization.repositories.nodes ) {
+    //   createPage({
+    //     path: `/doc/${doc.name}`,
+    //     component: './src/templates/Doc.vue',
+    //     context: {
+    //       id: doc.id,
+    //       name: doc.name
+    //     }
+    //   })
+    // }
   })
 }

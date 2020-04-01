@@ -6,6 +6,8 @@
 
 module.exports = {
   siteName: 'Discover Designs...',
+  siteUrl: 'https://narration-sd.github.io',
+  // pathPrefix: '/jurra-project',
   plugins: [
     {
       use: '@gridsome/vue-remark',

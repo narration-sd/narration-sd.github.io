@@ -4,12 +4,15 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d dist"
   },
   "dependencies": {
     "@gridsome/source-graphql": "^0.1.0",
     "@gridsome/vue-remark": "^0.1.10",
     "babel-runtime": "^6.26.0",
+    "core-js": "^3.6.4",
     "gh-pages": "^2.2.0",
     "gridsome": "^0.7.0",
     "vue-markdown": "^2.2.4",
