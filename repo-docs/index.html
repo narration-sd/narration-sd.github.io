@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html data-html-server-rendered="true" lang="en" data-vue-tag="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  <head>
+    <title>Demo Connect - Discover Designs...</title><meta name="gridsome:hash" content="6ff064b594a98e05934b99412db400cbf147915e"><meta data-vue-tag="ssr" charset="utf-8"><meta data-vue-tag="ssr" name="generator" content="Gridsome v0.7.13"><meta data-vue-tag="ssr" data-key="viewport" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta data-vue-tag="ssr" data-key="format-detection" name="format-detection" content="telephone=no"><link data-vue-tag="ssr" rel="icon" href="data:,"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="16x16" href="/narration-sd.github.io/assets/static/favicon.ce0531f.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="32x32" href="/narration-sd.github.io/assets/static/favicon.ac8d93a.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="icon" type="image/png" sizes="96x96" href="/narration-sd.github.io/assets/static/favicon.b9532cc.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="76x76" href="/narration-sd.github.io/assets/static/favicon.f22e9f3.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="152x152" href="/narration-sd.github.io/assets/static/favicon.62d22cb.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="120x120" href="/narration-sd.github.io/assets/static/favicon.1539b60.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="167x167" href="/narration-sd.github.io/assets/static/favicon.dc0cdc5.9bb7ffafafc09ac851d81afb65b8ef59.png"><link data-vue-tag="ssr" rel="apple-touch-icon" type="image/png" sizes="180x180" href="/narration-sd.github.io/assets/static/favicon.7b22250.9bb7ffafafc09ac851d81afb65b8ef59.png"><link rel="preload" href="/narration-sd.github.io/assets/css/0.styles.46a75f03.css" as="style"><link rel="preload" href="/narration-sd.github.io/assets/js/app.4fd70cad.js" as="script"><link rel="preload" href="/narration-sd.github.io/assets/js/page--src-pages-repo-docs-vue.80ee5772.js" as="script"><link rel="prefetch" href="/narration-sd.github.io/assets/js/page--node-modules-gridsome-app-pages-404-vue.d357683e.js"><link rel="prefetch" href="/narration-sd.github.io/assets/js/page--src-pages-about-vue.795bc091.js"><link rel="prefetch" href="/narration-sd.github.io/assets/js/page--src-pages-contact-vue.401e7920.js"><link rel="prefetch" href="/narration-sd.github.io/assets/js/page--src-pages-demo-connect-vue.b701526b.js"><link rel="prefetch" href="/narration-sd.github.io/assets/js/page--src-pages-design-choices-vue.caced5d8.js"><link rel="prefetch" href="/narration-sd.github.io/assets/js/page--src-pages-documentation-vue.faeb861e.js"><link rel="prefetch" href="/narration-sd.github.io/assets/js/page--src-pages-index-vue.4f0c69ef.js"><link rel="prefetch" href="/narration-sd.github.io/assets/js/page--src-pages-jose-connect-vue.3be34745.js"><link rel="prefetch" href="/narration-sd.github.io/assets/js/page--src-templates-docs-vue.c7087fb2.js"><link rel="prefetch" href="/narration-sd.github.io/assets/js/vendors~page--src-pages-repo-docs-vue.0a48329e.js"><link rel="prefetch" href="/narration-sd.github.io/assets/js/vue-remark--content-docs-another-doc-md.ef4f4b31.js"><link rel="prefetch" href="/narration-sd.github.io/assets/js/vue-remark--content-docs-test-md.069f718e.js"><link rel="stylesheet" href="/narration-sd.github.io/assets/css/0.styles.46a75f03.css"><style data-vue-tag="vuetify" type="text/css" id="vuetify-theme-stylesheet" nonce="undefined">:root {
+  --v-anchor-base: #040404;
+  --v-primary-base: #040404;
+  --v-primary-lighten5: #7a7a7a;
+  --v-primary-lighten4: #616161;
+  --v-primary-lighten3: #494949;
+  --v-primary-lighten2: #333333;
+  --v-primary-lighten1: #1e1e1e;
+  --v-primary-darken1: #000000;
+  --v-primary-darken2: #000000;
+  --v-primary-darken3: #000000;
+  --v-primary-darken4: #000000;
+  --v-secondary-base: #0c0c0c;
+  --v-secondary-lighten5: #7f7f7f;
+  --v-secondary-lighten4: #666666;
+  --v-secondary-lighten3: #4e4e4e;
+  --v-secondary-lighten2: #383838;
+  --v-secondary-lighten1: #222222;
+  --v-secondary-darken1: #000000;
+  --v-secondary-darken2: #000000;
+  --v-secondary-darken3: #000000;
+  --v-secondary-darken4: #000000;
+  --v-accent-base: #767f94;
+  --v-accent-lighten5: #ffffff;
+  --v-accent-lighten4: #e2ebff;
+  --v-accent-lighten3: #c6cfe6;
+  --v-accent-lighten2: #aab4ca;
+  --v-accent-lighten1: #9099af;
+  --v-accent-darken1: #5d667a;
+  --v-accent-darken2: #454e61;
+  --v-accent-darken3: #2e374a;
+  --v-accent-darken4: #182233;
+  --v-error-base: #ff5252;
+  --v-error-lighten5: #ffe4d5;
+  --v-error-lighten4: #ffc6b9;
+  --v-error-lighten3: #ffa99e;
+  --v-error-lighten2: #ff8c84;
+  --v-error-lighten1: #ff6f6a;
+  --v-error-darken1: #df323b;
+  --v-error-darken2: #bf0025;
+  --v-error-darken3: #9f0010;
+  --v-error-darken4: #800000;
+  --v-info-base: #2196f3;
+  --v-info-lighten5: #d4ffff;
+  --v-info-lighten4: #b5ffff;
+  --v-info-lighten3: #95e8ff;
+  --v-info-lighten2: #75ccff;
+  --v-info-lighten1: #51b0ff;
+  --v-info-darken1: #007cd6;
+  --v-info-darken2: #0064ba;
+  --v-info-darken3: #004d9f;
+  --v-info-darken4: #003784;
+  --v-success-base: #4caf50;
+  --v-success-lighten5: #dcffd6;
+  --v-success-lighten4: #beffba;
+  --v-success-lighten3: #a2ff9e;
+  --v-success-lighten2: #85e783;
+  --v-success-lighten1: #69cb69;
+  --v-success-darken1: #2d9437;
+  --v-success-darken2: #00791e;
+  --v-success-darken3: #006000;
+  --v-success-darken4: #004700;
+  --v-warning-base: #fb8c00;
+  --v-warning-lighten5: #ffff9e;
+  --v-warning-lighten4: #fffb82;
+  --v-warning-lighten3: #ffdf67;
+  --v-warning-lighten2: #ffc24b;
+  --v-warning-lighten1: #ffa72d;
+  --v-warning-darken1: #db7200;
+  --v-warning-darken2: #bb5900;
+  --v-warning-darken3: #9d4000;
+  --v-warning-darken4: #802700;
+}
+
+.v-application a { color: var(--v-anchor-base); }
+.v-application .primary {
+  background-color: var(--v-primary-base) !important;
+  border-color: var(--v-primary-base) !important;
+}
+.v-application .primary--text {
+  color: var(--v-primary-base) !important;
+  caret-color: var(--v-primary-base) !important;
+}
+.v-application .primary.lighten-5 {
+  background-color: var(--v-primary-lighten5) !important;
+  border-color: var(--v-primary-lighten5) !important;
+}
+.v-application .primary--text.text--lighten-5 {
+  color: var(--v-primary-lighten5) !important;
+  caret-color: var(--v-primary-lighten5) !important;
+}
+.v-application .primary.lighten-4 {
+  background-color: var(--v-primary-lighten4) !important;
+  border-color: var(--v-primary-lighten4) !important;
+}
+.v-application .primary--text.text--lighten-4 {
+  color: var(--v-primary-lighten4) !important;
+  caret-color: var(--v-primary-lighten4) !important;
+}
+.v-application .primary.lighten-3 {
+  background-color: var(--v-primary-lighten3) !important;
+  border-color: var(--v-primary-lighten3) !important;
+}
+.v-application .primary--text.text--lighten-3 {
+  color: var(--v-primary-lighten3) !important;
+  caret-color: var(--v-primary-lighten3) !important;
+}
+.v-application .primary.lighten-2 {
+  background-color: var(--v-primary-lighten2) !important;
+  border-color: var(--v-primary-lighten2) !important;
+}
+.v-application .primary--text.text--lighten-2 {
+  color: var(--v-primary-lighten2) !important;
+  caret-color: var(--v-primary-lighten2) !important;
+}
+.v-application .primary.lighten-1 {
+  background-color: var(--v-primary-lighten1) !important;
+  border-color: var(--v-primary-lighten1) !important;
+}
+.v-application .primary--text.text--lighten-1 {
+  color: var(--v-primary-lighten1) !important;
+  caret-color: var(--v-primary-lighten1) !important;
+}
+.v-application .primary.darken-1 {
+  background-color: var(--v-primary-darken1) !important;
+  border-color: var(--v-primary-darken1) !important;
+}
+.v-application .primary--text.text--darken-1 {
+  color: var(--v-primary-darken1) !important;
+  caret-color: var(--v-primary-darken1) !important;
+}
+.v-application .primary.darken-2 {
+  background-color: var(--v-primary-darken2) !important;
+  border-color: var(--v-primary-darken2) !important;
+}
+.v-application .primary--text.text--darken-2 {
+  color: var(--v-primary-darken2) !important;
+  caret-color: var(--v-primary-darken2) !important;
+}
+.v-application .primary.darken-3 {
+  background-color: var(--v-primary-darken3) !important;
+  border-color: var(--v-primary-darken3) !important;
+}
+.v-application .primary--text.text--darken-3 {
+  color: var(--v-primary-darken3) !important;
+  caret-color: var(--v-primary-darken3) !important;
+}
+.v-application .primary.darken-4 {
+  background-color: var(--v-primary-darken4) !important;
+  border-color: var(--v-primary-darken4) !important;
+}
+.v-application .primary--text.text--darken-4 {
+  color: var(--v-primary-darken4) !important;
+  caret-color: var(--v-primary-darken4) !important;
+}
+.v-application .secondary {
+  background-color: var(--v-secondary-base) !important;
+  border-color: var(--v-secondary-base) !important;
+}
+.v-application .secondary--text {
+  color: var(--v-secondary-base) !important;
+  caret-color: var(--v-secondary-base) !important;
+}
+.v-application .secondary.lighten-5 {
+  background-color: var(--v-secondary-lighten5) !important;
+  border-color: var(--v-secondary-lighten5) !important;
+}
+.v-application .secondary--text.text--lighten-5 {
+  color: var(--v-secondary-lighten5) !important;
+  caret-color: var(--v-secondary-lighten5) !important;
+}
+.v-application .secondary.lighten-4 {
+  background-color: var(--v-secondary-lighten4) !important;
+  border-color: var(--v-secondary-lighten4) !important;
+}
+.v-application .secondary--text.text--lighten-4 {
+  color: var(--v-secondary-lighten4) !important;
+  caret-color: var(--v-secondary-lighten4) !important;
+}
+.v-application .secondary.lighten-3 {
+  background-color: var(--v-secondary-lighten3) !important;
+  border-color: var(--v-secondary-lighten3) !important;
+}
+.v-application .secondary--text.text--lighten-3 {
+  color: var(--v-secondary-lighten3) !important;
+  caret-color: var(--v-secondary-lighten3) !important;
+}
+.v-application .secondary.lighten-2 {
+  background-color: var(--v-secondary-lighten2) !important;
+  border-color: var(--v-secondary-lighten2) !important;
+}
+.v-application .secondary--text.text--lighten-2 {
+  color: var(--v-secondary-lighten2) !important;
+  caret-color: var(--v-secondary-lighten2) !important;
+}
+.v-application .secondary.lighten-1 {
+  background-color: var(--v-secondary-lighten1) !important;
+  border-color: var(--v-secondary-lighten1) !important;
+}
+.v-application .secondary--text.text--lighten-1 {
+  color: var(--v-secondary-lighten1) !important;
+  caret-color: var(--v-secondary-lighten1) !important;
+}
+.v-application .secondary.darken-1 {
+  background-color: var(--v-secondary-darken1) !important;
+  border-color: var(--v-secondary-darken1) !important;
+}
+.v-application .secondary--text.text--darken-1 {
+  color: var(--v-secondary-darken1) !important;
+  caret-color: var(--v-secondary-darken1) !important;
+}
+.v-application .secondary.darken-2 {
+  background-color: var(--v-secondary-darken2) !important;
+  border-color: var(--v-secondary-darken2) !important;
+}
+.v-application .secondary--text.text--darken-2 {
+  color: var(--v-secondary-darken2) !important;
+  caret-color: var(--v-secondary-darken2) !important;
+}
+.v-application .secondary.darken-3 {
+  background-color: var(--v-secondary-darken3) !important;
+  border-color: var(--v-secondary-darken3) !important;
+}
+.v-application .secondary--text.text--darken-3 {
+  color: var(--v-secondary-darken3) !important;
+  caret-color: var(--v-secondary-darken3) !important;
+}
+.v-application .secondary.darken-4 {
+  background-color: var(--v-secondary-darken4) !important;
+  border-color: var(--v-secondary-darken4) !important;
+}
+.v-application .secondary--text.text--darken-4 {
+  color: var(--v-secondary-darken4) !important;
+  caret-color: var(--v-secondary-darken4) !important;
+}
+.v-application .accent {
+  background-color: var(--v-accent-base) !important;
+  border-color: var(--v-accent-base) !important;
+}
+.v-application .accent--text {
+  color: var(--v-accent-base) !important;
+  caret-color: var(--v-accent-base) !important;
+}
+.v-application .accent.lighten-5 {
+  background-color: var(--v-accent-lighten5) !important;
+  border-color: var(--v-accent-lighten5) !important;
+}
+.v-application .accent--text.text--lighten-5 {
+  color: var(--v-accent-lighten5) !important;
+  caret-color: var(--v-accent-lighten5) !important;
+}
+.v-application .accent.lighten-4 {
+  background-color: var(--v-accent-lighten4) !important;
+  border-color: var(--v-accent-lighten4) !important;
+}
+.v-application .accent--text.text--lighten-4 {
+  color: var(--v-accent-lighten4) !important;
+  caret-color: var(--v-accent-lighten4) !important;
+}
+.v-application .accent.lighten-3 {
+  background-color: var(--v-accent-lighten3) !important;
+  border-color: var(--v-accent-lighten3) !important;
+}
+.v-application .accent--text.text--lighten-3 {
+  color: var(--v-accent-lighten3) !important;
+  caret-color: var(--v-accent-lighten3) !important;
+}
+.v-application .accent.lighten-2 {
+  background-color: var(--v-accent-lighten2) !important;
+  border-color: var(--v-accent-lighten2) !important;
+}
+.v-application .accent--text.text--lighten-2 {
+  color: var(--v-accent-lighten2) !important;
+  caret-color: var(--v-accent-lighten2) !important;
+}
+.v-application .accent.lighten-1 {
+  background-color: var(--v-accent-lighten1) !important;
+  border-color: var(--v-accent-lighten1) !important;
+}
+.v-application .accent--text.text--lighten-1 {
+  color: var(--v-accent-lighten1) !important;
+  caret-color: var(--v-accent-lighten1) !important;
+}
+.v-application .accent.darken-1 {
+  background-color: var(--v-accent-darken1) !important;
+  border-color: var(--v-accent-darken1) !important;
+}
+.v-application .accent--text.text--darken-1 {
+  color: var(--v-accent-darken1) !important;
+  caret-color: var(--v-accent-darken1) !important;
+}
+.v-application .accent.darken-2 {
+  background-color: var(--v-accent-darken2) !important;
+  border-color: var(--v-accent-darken2) !important;
+}
+.v-application .accent--text.text--darken-2 {
+  color: var(--v-accent-darken2) !important;
+  caret-color: var(--v-accent-darken2) !important;
+}
+.v-application .accent.darken-3 {
+  background-color: var(--v-accent-darken3) !important;
+  border-color: var(--v-accent-darken3) !important;
+}
+.v-application .accent--text.text--darken-3 {
+  color: var(--v-accent-darken3) !important;
+  caret-color: var(--v-accent-darken3) !important;
+}
+.v-application .accent.darken-4 {
+  background-color: var(--v-accent-darken4) !important;
+  border-color: var(--v-accent-darken4) !important;
+}
+.v-application .accent--text.text--darken-4 {
+  color: var(--v-accent-darken4) !important;
+  caret-color: var(--v-accent-darken4) !important;
+}
+.v-application .error {
+  background-color: var(--v-error-base) !important;
+  border-color: var(--v-error-base) !important;
+}
+.v-application .error--text {
+  color: var(--v-error-base) !important;
+  caret-color: var(--v-error-base) !important;
+}
+.v-application .error.lighten-5 {
+  background-color: var(--v-error-lighten5) !important;
+  border-color: var(--v-error-lighten5) !important;
+}
+.v-application .error--text.text--lighten-5 {
+  color: var(--v-error-lighten5) !important;
+  caret-color: var(--v-error-lighten5) !important;
+}
+.v-application .error.lighten-4 {
+  background-color: var(--v-error-lighten4) !important;
+  border-color: var(--v-error-lighten4) !important;
+}
+.v-application .error--text.text--lighten-4 {
+  color: var(--v-error-lighten4) !important;
+  caret-color: var(--v-error-lighten4) !important;
+}
+.v-application .error.lighten-3 {
+  background-color: var(--v-error-lighten3) !important;
+  border-color: var(--v-error-lighten3) !important;
+}
+.v-application .error--text.text--lighten-3 {
+  color: var(--v-error-lighten3) !important;
+  caret-color: var(--v-error-lighten3) !important;
+}
+.v-application .error.lighten-2 {
+  background-color: var(--v-error-lighten2) !important;
+  border-color: var(--v-error-lighten2) !important;
+}
+.v-application .error--text.text--lighten-2 {
+  color: var(--v-error-lighten2) !important;
+  caret-color: var(--v-error-lighten2) !important;
+}
+.v-application .error.lighten-1 {
+  background-color: var(--v-error-lighten1) !important;
+  border-color: var(--v-error-lighten1) !important;
+}
+.v-application .error--text.text--lighten-1 {
+  color: var(--v-error-lighten1) !important;
+  caret-color: var(--v-error-lighten1) !important;
+}
+.v-application .error.darken-1 {
+  background-color: var(--v-error-darken1) !important;
+  border-color: var(--v-error-darken1) !important;
+}
+.v-application .error--text.text--darken-1 {
+  color: var(--v-error-darken1) !important;
+  caret-color: var(--v-error-darken1) !important;
+}
+.v-application .error.darken-2 {
+  background-color: var(--v-error-darken2) !important;
+  border-color: var(--v-error-darken2) !important;
+}
+.v-application .error--text.text--darken-2 {
+  color: var(--v-error-darken2) !important;
+  caret-color: var(--v-error-darken2) !important;
+}
+.v-application .error.darken-3 {
+  background-color: var(--v-error-darken3) !important;
+  border-color: var(--v-error-darken3) !important;
+}
+.v-application .error--text.text--darken-3 {
+  color: var(--v-error-darken3) !important;
+  caret-color: var(--v-error-darken3) !important;
+}
+.v-application .error.darken-4 {
+  background-color: var(--v-error-darken4) !important;
+  border-color: var(--v-error-darken4) !important;
+}
+.v-application .error--text.text--darken-4 {
+  color: var(--v-error-darken4) !important;
+  caret-color: var(--v-error-darken4) !important;
+}
+.v-application .info {
+  background-color: var(--v-info-base) !important;
+  border-color: var(--v-info-base) !important;
+}
+.v-application .info--text {
+  color: var(--v-info-base) !important;
+  caret-color: var(--v-info-base) !important;
+}
+.v-application .info.lighten-5 {
+  background-color: var(--v-info-lighten5) !important;
+  border-color: var(--v-info-lighten5) !important;
+}
+.v-application .info--text.text--lighten-5 {
+  color: var(--v-info-lighten5) !important;
+  caret-color: var(--v-info-lighten5) !important;
+}
+.v-application .info.lighten-4 {
+  background-color: var(--v-info-lighten4) !important;
+  border-color: var(--v-info-lighten4) !important;
+}
+.v-application .info--text.text--lighten-4 {
+  color: var(--v-info-lighten4) !important;
+  caret-color: var(--v-info-lighten4) !important;
+}
+.v-application .info.lighten-3 {
+  background-color: var(--v-info-lighten3) !important;
+  border-color: var(--v-info-lighten3) !important;
+}
+.v-application .info--text.text--lighten-3 {
+  color: var(--v-info-lighten3) !important;
+  caret-color: var(--v-info-lighten3) !important;
+}
+.v-application .info.lighten-2 {
+  background-color: var(--v-info-lighten2) !important;
+  border-color: var(--v-info-lighten2) !important;
+}
+.v-application .info--text.text--lighten-2 {
+  color: var(--v-info-lighten2) !important;
+  caret-color: var(--v-info-lighten2) !important;
+}
+.v-application .info.lighten-1 {
+  background-color: var(--v-info-lighten1) !important;
+  border-color: var(--v-info-lighten1) !important;
+}
+.v-application .info--text.text--lighten-1 {
+  color: var(--v-info-lighten1) !important;
+  caret-color: var(--v-info-lighten1) !important;
+}
+.v-application .info.darken-1 {
+  background-color: var(--v-info-darken1) !important;
+  border-color: var(--v-info-darken1) !important;
+}
+.v-application .info--text.text--darken-1 {
+  color: var(--v-info-darken1) !important;
+  caret-color: var(--v-info-darken1) !important;
+}
+.v-application .info.darken-2 {
+  background-color: var(--v-info-darken2) !important;
+  border-color: var(--v-info-darken2) !important;
+}
+.v-application .info--text.text--darken-2 {
+  color: var(--v-info-darken2) !important;
+  caret-color: var(--v-info-darken2) !important;
+}
+.v-application .info.darken-3 {
+  background-color: var(--v-info-darken3) !important;
+  border-color: var(--v-info-darken3) !important;
+}
+.v-application .info--text.text--darken-3 {
+  color: var(--v-info-darken3) !important;
+  caret-color: var(--v-info-darken3) !important;
+}
+.v-application .info.darken-4 {
+  background-color: var(--v-info-darken4) !important;
+  border-color: var(--v-info-darken4) !important;
+}
+.v-application .info--text.text--darken-4 {
+  color: var(--v-info-darken4) !important;
+  caret-color: var(--v-info-darken4) !important;
+}
+.v-application .success {
+  background-color: var(--v-success-base) !important;
+  border-color: var(--v-success-base) !important;
+}
+.v-application .success--text {
+  color: var(--v-success-base) !important;
+  caret-color: var(--v-success-base) !important;
+}
+.v-application .success.lighten-5 {
+  background-color: var(--v-success-lighten5) !important;
+  border-color: var(--v-success-lighten5) !important;
+}
+.v-application .success--text.text--lighten-5 {
+  color: var(--v-success-lighten5) !important;
+  caret-color: var(--v-success-lighten5) !important;
+}
+.v-application .success.lighten-4 {
+  background-color: var(--v-success-lighten4) !important;
+  border-color: var(--v-success-lighten4) !important;
+}
+.v-application .success--text.text--lighten-4 {
+  color: var(--v-success-lighten4) !important;
+  caret-color: var(--v-success-lighten4) !important;
+}
+.v-application .success.lighten-3 {
+  background-color: var(--v-success-lighten3) !important;
+  border-color: var(--v-success-lighten3) !important;
+}
+.v-application .success--text.text--lighten-3 {
+  color: var(--v-success-lighten3) !important;
+  caret-color: var(--v-success-lighten3) !important;
+}
+.v-application .success.lighten-2 {
+  background-color: var(--v-success-lighten2) !important;
+  border-color: var(--v-success-lighten2) !important;
+}
+.v-application .success--text.text--lighten-2 {
+  color: var(--v-success-lighten2) !important;
+  caret-color: var(--v-success-lighten2) !important;
+}
+.v-application .success.lighten-1 {
+  background-color: var(--v-success-lighten1) !important;
+  border-color: var(--v-success-lighten1) !important;
+}
+.v-application .success--text.text--lighten-1 {
+  color: var(--v-success-lighten1) !important;
+  caret-color: var(--v-success-lighten1) !important;
+}
+.v-application .success.darken-1 {
+  background-color: var(--v-success-darken1) !important;
+  border-color: var(--v-success-darken1) !important;
+}
+.v-application .success--text.text--darken-1 {
+  color: var(--v-success-darken1) !important;
+  caret-color: var(--v-success-darken1) !important;
+}
+.v-application .success.darken-2 {
+  background-color: var(--v-success-darken2) !important;
+  border-color: var(--v-success-darken2) !important;
+}
+.v-application .success--text.text--darken-2 {
+  color: var(--v-success-darken2) !important;
+  caret-color: var(--v-success-darken2) !important;
+}
+.v-application .success.darken-3 {
+  background-color: var(--v-success-darken3) !important;
+  border-color: var(--v-success-darken3) !important;
+}
+.v-application .success--text.text--darken-3 {
+  color: var(--v-success-darken3) !important;
+  caret-color: var(--v-success-darken3) !important;
+}
+.v-application .success.darken-4 {
+  background-color: var(--v-success-darken4) !important;
+  border-color: var(--v-success-darken4) !important;
+}
+.v-application .success--text.text--darken-4 {
+  color: var(--v-success-darken4) !important;
+  caret-color: var(--v-success-darken4) !important;
+}
+.v-application .warning {
+  background-color: var(--v-warning-base) !important;
+  border-color: var(--v-warning-base) !important;
+}
+.v-application .warning--text {
+  color: var(--v-warning-base) !important;
+  caret-color: var(--v-warning-base) !important;
+}
+.v-application .warning.lighten-5 {
+  background-color: var(--v-warning-lighten5) !important;
+  border-color: var(--v-warning-lighten5) !important;
+}
+.v-application .warning--text.text--lighten-5 {
+  color: var(--v-warning-lighten5) !important;
+  caret-color: var(--v-warning-lighten5) !important;
+}
+.v-application .warning.lighten-4 {
+  background-color: var(--v-warning-lighten4) !important;
+  border-color: var(--v-warning-lighten4) !important;
+}
+.v-application .warning--text.text--lighten-4 {
+  color: var(--v-warning-lighten4) !important;
+  caret-color: var(--v-warning-lighten4) !important;
+}
+.v-application .warning.lighten-3 {
+  background-color: var(--v-warning-lighten3) !important;
+  border-color: var(--v-warning-lighten3) !important;
+}
+.v-application .warning--text.text--lighten-3 {
+  color: var(--v-warning-lighten3) !important;
+  caret-color: var(--v-warning-lighten3) !important;
+}
+.v-application .warning.lighten-2 {
+  background-color: var(--v-warning-lighten2) !important;
+  border-color: var(--v-warning-lighten2) !important;
+}
+.v-application .warning--text.text--lighten-2 {
+  color: var(--v-warning-lighten2) !important;
+  caret-color: var(--v-warning-lighten2) !important;
+}
+.v-application .warning.lighten-1 {
+  background-color: var(--v-warning-lighten1) !important;
+  border-color: var(--v-warning-lighten1) !important;
+}
+.v-application .warning--text.text--lighten-1 {
+  color: var(--v-warning-lighten1) !important;
+  caret-color: var(--v-warning-lighten1) !important;
+}
+.v-application .warning.darken-1 {
+  background-color: var(--v-warning-darken1) !important;
+  border-color: var(--v-warning-darken1) !important;
+}
+.v-application .warning--text.text--darken-1 {
+  color: var(--v-warning-darken1) !important;
+  caret-color: var(--v-warning-darken1) !important;
+}
+.v-application .warning.darken-2 {
+  background-color: var(--v-warning-darken2) !important;
+  border-color: var(--v-warning-darken2) !important;
+}
+.v-application .warning--text.text--darken-2 {
+  color: var(--v-warning-darken2) !important;
+  caret-color: var(--v-warning-darken2) !important;
+}
+.v-application .warning.darken-3 {
+  background-color: var(--v-warning-darken3) !important;
+  border-color: var(--v-warning-darken3) !important;
+}
+.v-application .warning--text.text--darken-3 {
+  color: var(--v-warning-darken3) !important;
+  caret-color: var(--v-warning-darken3) !important;
+}
+.v-application .warning.darken-4 {
+  background-color: var(--v-warning-darken4) !important;
+  border-color: var(--v-warning-darken4) !important;
+}
+.v-application .warning--text.text--darken-4 {
+  color: var(--v-warning-darken4) !important;
+  caret-color: var(--v-warning-darken4) !important;
+}</style><noscript data-vue-tag="ssr"><style>.g-image--loading{display:none;}</style></noscript>
+  </head>
+  <body >
+    <div data-app="true" data-server-rendered="true" id="app" id="app" class="v-application v-application--is-ltr theme--light" data-v-602569ee><div class="v-application--wrap"><div data-v-3ab1accb><header class="v-sheet v-sheet--tile theme--dark v-toolbar v-app-bar v-app-bar--fixed" style="height:64px;margin-top:0px;transform:translateY(0px);left:0px;right:0px;" data-v-3ab1accb><div class="v-toolbar__content" style="height:64px;"><span class="hidden-md-and-up" data-v-3ab1accb><button type="button" src="navIcon" class="v-app-bar__nav-icon hidden-sg-and-up v-btn v-btn--flat v-btn--icon v-btn--round theme--dark v-size--default" data-v-3ab1accb><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-menu theme--dark" data-v-3ab1accb></i></span></button></span><div class="v-responsive v-image" style="max-width:50px;" data-v-3ab1accb><div class="v-image__image v-image__image--preload v-image__image--cover" style="background-image:;background-position:center center;"></div><div class="v-responsive__content"></div></div><div xs="" class="v-toolbar__title" data-v-3ab1accb><span class="router-link-active" style="cursor:pointer;" data-v-3ab1accb><span class="bar-title" data-v-3ab1accb>Discover Designs...</span></span></div><div class="spacer" data-v-3ab1accb></div><div class="v-toolbar__items hidden-sm-and-down" data-v-3ab1accb><a href="/narration-sd.github.io/jose-connect" class="v-btn v-btn--flat v-btn--router v-btn--text theme--dark v-size--default" data-v-3ab1accb><span class="v-btn__content">Jurra Connect</span></a><a href="/narration-sd.github.io/demo-connect" class="v-btn v-btn--flat v-btn--router v-btn--text theme--dark v-size--default" data-v-3ab1accb><span class="v-btn__content">List of designs</span></a><a href="/narration-sd.github.io/repo-docs" class="v-btn--active v-btn v-btn--flat v-btn--router v-btn--text theme--dark v-size--default" data-v-3ab1accb><span class="v-btn__content">Doc demo</span></a><a href="/narration-sd.github.io/design-choices" class="v-btn v-btn--flat v-btn--router v-btn--text theme--dark v-size--default" data-v-3ab1accb><span class="v-btn__content">Design Choices</span></a><button type="button" class="v-btn v-btn--flat v-btn--text theme--dark v-size--default" data-v-3ab1accb><span class="v-btn__content"><a href="/narration-sd.github.io/Documentation" data-v-3ab1accb>Documentation</a></span></button><button type="button" class="v-btn v-btn--flat v-btn--text theme--dark v-size--default" data-v-3ab1accb><span class="v-btn__content"><a href="/narration-sd.github.io/About" data-v-3ab1accb>About</a></span></button></div></div></header><aside appf="" id="drawer" class="v-navigation-drawer v-navigation-drawer--absolute v-navigation-drawer--close v-navigation-drawer--is-mobile v-navigation-drawer--temporary theme--light" style="height:100%;top:0px;transform:translateX(-100%);width:200px;" data-v-3ab1accb><div class="v-navigation-drawer__content"><div role="list" class="v-list v-sheet v-sheet--tile theme--light v-list--dense v-list--nav" data-v-3ab1accb><a href="/narration-sd.github.io/demo-connect" class="v-btn v-btn--flat v-btn--router v-btn--text theme--light v-size--default" data-v-3ab1accb><span class="v-btn__content">List of designs</span></a><a href="/narration-sd.github.io/repo-docs" class="v-btn--active v-btn v-btn--flat v-btn--router v-btn--text theme--light v-size--default" data-v-3ab1accb><span class="v-btn__content">Doc demo</span></a><a href="/narration-sd.github.io/design-choices" class="v-btn v-btn--flat v-btn--router v-btn--text theme--light v-size--default" data-v-3ab1accb><span class="v-btn__content">Design Choices</span></a><a href="/narration-sd.github.io/Documentation" class="v-btn v-btn--flat v-btn--router v-btn--text theme--light v-size--default" data-v-3ab1accb><span class="v-btn__content">Documentation</span></a><a href="/narration-sd.github.io/About" class="v-btn v-btn--flat v-btn--router v-btn--text theme--light v-size--default" data-v-3ab1accb><span class="v-btn__content">About</span></a></div></div><div class="v-navigation-drawer__border"></div></aside></div><main class="v-content" style="padding-top:64px;padding-right:0px;padding-bottom:0px;padding-left:0px;"><div class="v-content__wrap"><div class="container"><h1 data-v-602569ee>Repo Docs</h1><p data-v-602569ee>Showing expected standard '01-title.md' descriptions, on a single connection to GitHub API,
+    and for as many repos have the standard `docs/ES/` folder arrangement so we see ES documents.</p><p data-v-602569ee>Display formatting is rough, and I may want to go a better means than VueMarkdown, but it gives a first demo.
+    A master-detail layout to view one listed doc at a time may or not be needed for performance
+    and feel. The actual app will need to dynamically manage multiple connections, one at a time,
+    for each participating Github account.</p><p data-v-602569ee>N.b. at the moment, there's a proving test at the bottom of the summary - will go away.</p><div class="query-content" data-v-602569ee><div data-v-602569ee><h2 data-v-602569ee>Repo owner is Jose Carlos Urra Llanusa</h2><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><div class="repo-list" data-v-602569ee><p data-v-602569ee>Repo name is medical-shields-for-3d-printing</p><div data-v-602569ee><h1>Título: Del diseño a la impresión masiva en 3D de Medical Shields en tres días</h1>
+<h3>Referencia:</h3>
+<p>Toda la información compilada aquí se puede encontrar <a href="https://blog.prusaprinters.org/from-design-to-mass-3d-printing-of-medical-shields-in-three-days/" target="_blank" rel="noreferrer noopener">en este enlace</a></p>
+<h3>Consideraciones generales antes de comenzar</h3>
+<h4>Preocupaciones sobre respiradores impresos</h4>
+<ul>
+<li>Ninguno de los diseños disponibles en este momento se ha probado para garantizar que brinden las protecciones necesarias, al menos ninguno de los que conozco. Para ayudar con esto, hemos recopilado tantos diseños como pudimos encontrar, y estamos trabajando con expertos para ver si podemos verificar cuáles funcionan realmente. ¿Cuáles son los puntos clave de enfoque? Primero, es el sellado, luego el filtro en sí, el filtro de la máscara y cómo la máscara se adhiere a la cara, todo debe ser perfecto. La mayoría de nosotros imprimimos materiales rígidos que son difíciles de hacer compatibles con los sellos. (por Prusa)</li>
+<li>Otra pregunta que debemos tener en cuenta es la porosidad de las piezas impresas y las preocupaciones de seguridad que surgen de eso. El usuario tendrá la máscara en la cara, un lugar húmedo y cálido, un caldo de cultivo perfecto para los gérmenes. No podremos esterilizar estas máscaras de manera efectiva, por lo que podríamos estar causando aún más problemas. Y el virus supuestamente sobrevive más de 48 horas en los plásticos (o incluso 90 horas, según algunos otros estudios). Todos queremos ayudar a nuestros amigos y familiares, lo que significa que debemos ser más precavidos para evitar lastimarlos. Si insiste absolutamente en imprimir una máscara ahora, trátela como si fuera una máscara quirúrgica básica y no como un verdadero respirador con todas las protecciones que proporcionan. Una falsa sensación de seguridad puede ser muy peligrosa. Entiendo que estás tratando de ayudar, pero POR FAVOR, difunde esta información en tus grupos de impresión 3D.</li>
+</ul>
+<p>What follows is a test: <img src="/resources/image/Example.jpg"> abc abd abe</p>
+</div></div><!----></div></div></div></div></main></div></div>
+    <script>window.__INITIAL_STATE__={"data":{"gitapi":{"repos":{"name":"Jose Carlos Urra Llanusa","repositories":{"nodes":[{"name":"FreeCAD-library","nameWithOwner":"jurra\u002FFreeCAD-library","updatedAt":"2017-02-25T13:59:54Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FFreeCAD-library","object":null},{"name":"OSE_WebFrontEnd_Design","nameWithOwner":"jurra\u002FOSE_WebFrontEnd_Design","updatedAt":"2017-05-25T13:00:43Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FOSE_WebFrontEnd_Design","object":null},{"name":"OpenSourceEcology","nameWithOwner":"jurra\u002FOpenSourceEcology","updatedAt":"2018-11-20T14:18:30Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FOpenSourceEcology","object":null},{"name":"OSE-Sprint-Lyman-Filament-Winder","nameWithOwner":"jurra\u002FOSE-Sprint-Lyman-Filament-Winder","updatedAt":"2019-02-05T20:31:56Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FOSE-Sprint-Lyman-Filament-Winder","object":null},{"name":"jurra.github.io","nameWithOwner":"jurra\u002Fjurra.github.io","updatedAt":"2018-09-21T14:33:46Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fjurra.github.io","object":null},{"name":"OSE-D3D-printer-16-inch-version","nameWithOwner":"jurra\u002FOSE-D3D-printer-16-inch-version","updatedAt":"2019-02-07T18:19:30Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FOSE-D3D-printer-16-inch-version","object":null},{"name":"goscommons.github.io","nameWithOwner":"goscommons\u002Fgoscommons.github.io","updatedAt":"2019-07-31T14:11:15Z","url":"https:\u002F\u002Fgithub.com\u002Fgoscommons\u002Fgoscommons.github.io","object":null},{"name":"Open-Design-Template","nameWithOwner":"goscommons\u002FOpen-Design-Template","updatedAt":"2018-05-17T17:19:25Z","url":"https:\u002F\u002Fgithub.com\u002Fgoscommons\u002FOpen-Design-Template","object":null},{"name":"open_maps","nameWithOwner":"zbouslama\u002Fopen_maps","updatedAt":"2018-05-31T09:40:35Z","url":"https:\u002F\u002Fgithub.com\u002Fzbouslama\u002Fopen_maps","object":null},{"name":"open-design-magazine-website","nameWithOwner":"jurra\u002Fopen-design-magazine-website","updatedAt":"2018-04-06T12:18:11Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fopen-design-magazine-website","object":null},{"name":"open-design-magazine-01","nameWithOwner":"jurra\u002Fopen-design-magazine-01","updatedAt":"2018-04-08T10:15:26Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fopen-design-magazine-01","object":null},{"name":"jekyll-theme-prologue","nameWithOwner":"jurra\u002Fjekyll-theme-prologue","updatedAt":"2018-04-20T13:42:59Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fjekyll-theme-prologue","object":null},{"name":"goscommons.github.io","nameWithOwner":"jurra\u002Fgoscommons.github.io","updatedAt":"2018-04-20T15:11:17Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fgoscommons.github.io","object":null},{"name":"Grapples","nameWithOwner":"goscommons\u002FGrapples","updatedAt":"2018-08-03T09:50:40Z","url":"https:\u002F\u002Fgithub.com\u002Fgoscommons\u002FGrapples","object":null},{"name":"T2L-B4R-Implements","nameWithOwner":"goscommons\u002FT2L-B4R-Implements","updatedAt":"2018-05-17T17:19:25Z","url":"https:\u002F\u002Fgithub.com\u002Fgoscommons\u002FT2L-B4R-Implements","object":null},{"name":"CNC-Plasma-Table","nameWithOwner":"goscommons\u002FCNC-Plasma-Table","updatedAt":"2019-10-02T12:55:11Z","url":"https:\u002F\u002Fgithub.com\u002Fgoscommons\u002FCNC-Plasma-Table","object":null},{"name":"Semantic-UI","nameWithOwner":"jurra\u002FSemantic-UI","updatedAt":"2018-04-26T13:08:24Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FSemantic-UI","object":null},{"name":"Tractor","nameWithOwner":"goscommons\u002FTractor","updatedAt":"2018-07-09T10:44:52Z","url":"https:\u002F\u002Fgithub.com\u002Fgoscommons\u002FTractor","object":null},{"name":"goscommons.github.io","nameWithOwner":"urrape\u002Fgoscommons.github.io","updatedAt":"2018-05-10T15:57:52Z","url":"https:\u002F\u002Fgithub.com\u002Furrape\u002Fgoscommons.github.io","object":null},{"name":"open_maps","nameWithOwner":"jurra\u002Fopen_maps","updatedAt":"2018-05-11T12:59:18Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fopen_maps","object":null},{"name":"openflexure_microscope","nameWithOwner":"jurra\u002Fopenflexure_microscope","updatedAt":"2018-08-07T21:32:24Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fopenflexure_microscope","object":null},{"name":"minima","nameWithOwner":"jurra\u002Fminima","updatedAt":"2018-09-17T13:54:54Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fminima","object":null},{"name":"TaskBoard","nameWithOwner":"jurra\u002FTaskBoard","updatedAt":"2018-09-19T07:26:28Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FTaskBoard","object":null},{"name":"ssopp","nameWithOwner":"jurra\u002Fssopp","updatedAt":"2018-09-26T09:57:57Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fssopp","object":null},{"name":"open-leadership-training-series","nameWithOwner":"jurra\u002Fopen-leadership-training-series","updatedAt":"2018-09-28T11:28:46Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fopen-leadership-training-series","object":null},{"name":"imdone-core","nameWithOwner":"jurra\u002Fimdone-core","updatedAt":"2018-10-03T07:03:20Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fimdone-core","object":null},{"name":"Original-Prusa-i3","nameWithOwner":"jurra\u002FOriginal-Prusa-i3","updatedAt":"2018-10-03T09:50:27Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FOriginal-Prusa-i3","object":null},{"name":"sandbox","nameWithOwner":"jurra\u002Fsandbox","updatedAt":"2018-10-04T19:02:08Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fsandbox","object":null},{"name":"hyde","nameWithOwner":"jurra\u002Fhyde","updatedAt":"2018-10-06T07:40:33Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fhyde","object":null},{"name":"forty-jekyll-theme","nameWithOwner":"jurra\u002Fforty-jekyll-theme","updatedAt":"2018-10-06T07:40:47Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fforty-jekyll-theme","object":null},{"name":"creative-theme-jekyll","nameWithOwner":"jurra\u002Fcreative-theme-jekyll","updatedAt":"2018-10-06T07:57:18Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fcreative-theme-jekyll","object":null},{"name":"MCAD","nameWithOwner":"jurra\u002FMCAD","updatedAt":"2018-10-10T09:33:01Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FMCAD","object":null},{"name":"Prusa3","nameWithOwner":"jurra\u002FPrusa3","updatedAt":"2018-10-15T13:01:36Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FPrusa3","object":null},{"name":"sketch-json","nameWithOwner":"jurra\u002Fsketch-json","updatedAt":"2018-10-26T15:34:33Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fsketch-json","object":null},{"name":"myqwbairw","nameWithOwner":"krishnarajagopal2011\u002Fmyqwbairw","updatedAt":"2018-10-30T18:25:53Z","url":"https:\u002F\u002Fgithub.com\u002Fkrishnarajagopal2011\u002Fmyqwbairw","object":null},{"name":"ICED_2019","nameWithOwner":"jurra\u002FICED_2019","updatedAt":"2018-11-18T12:06:20Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FICED_2019","object":null},{"name":"IEEE","nameWithOwner":"jurra\u002FIEEE","updatedAt":"2018-11-17T20:25:10Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FIEEE","object":null},{"name":"semantic-ui-sketch","nameWithOwner":"jurra\u002Fsemantic-ui-sketch","updatedAt":"2018-11-28T08:30:54Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fsemantic-ui-sketch","object":null},{"name":"Articles","nameWithOwner":"jurra\u002FArticles","updatedAt":"2019-01-22T17:38:06Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FArticles","object":null},{"name":"GoogleSpreadsheetProgramming_2015","nameWithOwner":"jurra\u002FGoogleSpreadsheetProgramming_2015","updatedAt":"2019-01-24T08:50:02Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FGoogleSpreadsheetProgramming_2015","object":null},{"name":"GoodEnoughCNC-PlasmaCutter","nameWithOwner":"jurra\u002FGoodEnoughCNC-PlasmaCutter","updatedAt":"2019-01-31T17:42:00Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FGoodEnoughCNC-PlasmaCutter","object":null},{"name":"mozilla-openleaders-7","nameWithOwner":"skpy\u002Fmozilla-openleaders-7","updatedAt":"2019-02-04T16:19:26Z","url":"https:\u002F\u002Fgithub.com\u002Fskpy\u002Fmozilla-openleaders-7","object":null},{"name":"Robotic-web-PHP","nameWithOwner":"92CREADOR\u002FRobotic-web-PHP","updatedAt":"2019-02-25T06:39:50Z","url":"https:\u002F\u002Fgithub.com\u002F92CREADOR\u002FRobotic-web-PHP","object":null},{"name":"cnc-plasma-table","nameWithOwner":"jurra\u002Fcnc-plasma-table","updatedAt":"2019-02-27T11:25:06Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fcnc-plasma-table","object":null},{"name":"equipment_repository_template","nameWithOwner":"jurra\u002Fequipment_repository_template","updatedAt":"2019-03-06T12:52:53Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fequipment_repository_template","object":null},{"name":"GPLv3.md","nameWithOwner":"jurra\u002FGPLv3.md","updatedAt":"2019-03-06T21:50:53Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FGPLv3.md","object":null},{"name":"open-hardware-Mozilla-OL","nameWithOwner":"jurra\u002Fopen-hardware-Mozilla-OL","updatedAt":"2019-04-01T08:26:12Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fopen-hardware-Mozilla-OL","object":null},{"name":"vuejs2-getting-started","nameWithOwner":"jurra\u002Fvuejs2-getting-started","updatedAt":"2019-04-23T14:57:58Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fvuejs2-getting-started","object":null},{"name":"Open-source-Centrifuge-for-WetLab","nameWithOwner":"leilaicruz\u002FOpen-source-Centrifuge-for-WetLab","updatedAt":"2019-06-07T07:21:48Z","url":"https:\u002F\u002Fgithub.com\u002Fleilaicruz\u002FOpen-source-Centrifuge-for-WetLab","object":null},{"name":"learn.libre.solar","nameWithOwner":"LibreSolar\u002Flearn.libre.solar","updatedAt":"2020-03-31T08:57:24Z","url":"https:\u002F\u002Fgithub.com\u002FLibreSolar\u002Flearn.libre.solar","object":null},{"name":"Open-source-Centrifuge-for-WetLab","nameWithOwner":"jurra\u002FOpen-source-Centrifuge-for-WetLab","updatedAt":"2019-05-26T15:10:44Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FOpen-source-Centrifuge-for-WetLab","object":null},{"name":"github-pages-vuepress","nameWithOwner":"jurra\u002Fgithub-pages-vuepress","updatedAt":"2019-05-17T16:02:25Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fgithub-pages-vuepress","object":null},{"name":"sam","nameWithOwner":"yanhees\u002Fsam","updatedAt":"2019-05-22T13:31:17Z","url":"https:\u002F\u002Fgithub.com\u002Fyanhees\u002Fsam","object":null},{"name":"Git-Example","nameWithOwner":"jurra\u002FGit-Example","updatedAt":"2019-05-22T12:24:10Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FGit-Example","object":null},{"name":"vuepress-template","nameWithOwner":"jurra\u002Fvuepress-template","updatedAt":"2019-05-27T09:54:52Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fvuepress-template","object":null},{"name":"charge-controller-housings","nameWithOwner":"LibreSolar\u002Fcharge-controller-housings","updatedAt":"2019-06-03T21:04:05Z","url":"https:\u002F\u002Fgithub.com\u002FLibreSolar\u002Fcharge-controller-housings","object":null},{"name":"markdown-licenses","nameWithOwner":"jurra\u002Fmarkdown-licenses","updatedAt":"2019-06-04T07:02:06Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fmarkdown-licenses","object":null},{"name":"style-guide","nameWithOwner":"jurra\u002Fstyle-guide","updatedAt":"2019-06-04T07:20:05Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fstyle-guide","object":null},{"name":"atom","nameWithOwner":"jurra\u002Fatom","updatedAt":"2019-06-04T07:30:18Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fatom","object":null},{"name":"github-issue-templates","nameWithOwner":"jurra\u002Fgithub-issue-templates","updatedAt":"2019-07-19T13:24:07Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fgithub-issue-templates","object":null},{"name":"vue-carousel-3d","nameWithOwner":"jurra\u002Fvue-carousel-3d","updatedAt":"2019-08-05T12:32:49Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fvue-carousel-3d","object":null},{"name":"demo-alion","nameWithOwner":"jurra\u002Fdemo-alion","updatedAt":"2019-08-08T08:39:36Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fdemo-alion","object":null},{"name":"hardocs-guide","nameWithOwner":"goscommons\u002Fhardocs-guide","updatedAt":"2019-09-18T11:46:47Z","url":"https:\u002F\u002Fgithub.com\u002Fgoscommons\u002Fhardocs-guide","object":null},{"name":"JSUtils","nameWithOwner":"jurra\u002FJSUtils","updatedAt":"2019-09-18T08:01:32Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002FJSUtils","object":null},{"name":"VASILAR_project","nameWithOwner":"Open-Hardware-Leaders\u002FVASILAR_project","updatedAt":"2020-03-19T21:30:55Z","url":"https:\u002F\u002Fgithub.com\u002FOpen-Hardware-Leaders\u002FVASILAR_project","object":null},{"name":"gitea","nameWithOwner":"jurra\u002Fgitea","updatedAt":"2020-01-10T13:53:08Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fgitea","object":null},{"name":"ohlwebsite","nameWithOwner":"jurra\u002Fohlwebsite","updatedAt":"2020-02-15T15:13:12Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fohlwebsite","object":null},{"name":"ohl2","nameWithOwner":"jurra\u002Fohl2","updatedAt":"2020-02-07T23:19:49Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fohl2","object":null},{"name":"ohlwebsite2","nameWithOwner":"jurra\u002Fohlwebsite2","updatedAt":"2020-02-15T15:53:57Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fohlwebsite2","object":null},{"name":"medical-shields-for-3d-printing","nameWithOwner":"jurra\u002Fmedical-shields-for-3d-printing","updatedAt":"2020-03-25T19:07:24Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fmedical-shields-for-3d-printing","object":{"commitUrl":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Fmedical-shields-for-3d-printing\u002Fcommit\u002Faf1e918b54adb8857ec0a325df92b66b9bfdabde","text":"---\ntitle: \"Mascara medica para impresion 3D\"\noutput: pdf_document\ndocumentclass: article\nclassoption: onecolumn\npdf_document:\nlatex_engine: pdflatex\ntoc: true\nlof: true\nnumberSections: true\nhighlight: tango\nsectionsDepth: 3\nchapters: True\nfigPrefix:\n  - \"Fig.\"\n  - \"Figs.\"\nsecPrefix:\n  - \"Section\"\n  - \"Sections\"\nfontsize: 12pt\ngeometry: margin=0.5in\nautoEqnLabels: true\ncref: true\ncrossref: true\ncolorlinks: true\n---\n\n# Título: Del diseño a la impresión masiva en 3D de Medical Shields en tres días\n\n### Referencia:\n\nToda la información compilada aquí se puede encontrar [en este enlace] (https:\u002F\u002Fblog.prusaprinters.org\u002Ffrom-design-to-mass-3d-printing-of-medical-shields-in-three-days\u002F)\n\n### Consideraciones generales antes de comenzar\n\n#### Preocupaciones sobre respiradores impresos\n\n- Ninguno de los diseños disponibles en este momento se ha probado para garantizar que brinden las protecciones necesarias, al menos ninguno de los que conozco. Para ayudar con esto, hemos recopilado tantos diseños como pudimos encontrar, y estamos trabajando con expertos para ver si podemos verificar cuáles funcionan realmente. ¿Cuáles son los puntos clave de enfoque? Primero, es el sellado, luego el filtro en sí, el filtro de la máscara y cómo la máscara se adhiere a la cara, todo debe ser perfecto. La mayoría de nosotros imprimimos materiales rígidos que son difíciles de hacer compatibles con los sellos. (por Prusa)\n- Otra pregunta que debemos tener en cuenta es la porosidad de las piezas impresas y las preocupaciones de seguridad que surgen de eso. El usuario tendrá la máscara en la cara, un lugar húmedo y cálido, un caldo de cultivo perfecto para los gérmenes. No podremos esterilizar estas máscaras de manera efectiva, por lo que podríamos estar causando aún más problemas. Y el virus supuestamente sobrevive más de 48 horas en los plásticos (o incluso 90 horas, según algunos otros estudios). Todos queremos ayudar a nuestros amigos y familiares, lo que significa que debemos ser más precavidos para evitar lastimarlos. Si insiste absolutamente en imprimir una máscara ahora, trátela como si fuera una máscara quirúrgica básica y no como un verdadero respirador con todas las protecciones que proporcionan. Una falsa sensación de seguridad puede ser muy peligrosa. Entiendo que estás tratando de ayudar, pero POR FAVOR, difunde esta información en tus grupos de impresión 3D.\n\n\n\n\n"}},{"name":"readable-licenses","nameWithOwner":"jurra\u002Freadable-licenses","updatedAt":"2020-03-31T18:41:35Z","url":"https:\u002F\u002Fgithub.com\u002Fjurra\u002Freadable-licenses","object":null}]}}}},"context":{}};(function(){var s;(s=document.currentScript||document.scripts[document.scripts.length-1]).parentNode.removeChild(s);}());</script><script src="/narration-sd.github.io/assets/js/app.4fd70cad.js" defer></script><script src="/narration-sd.github.io/assets/js/page--src-pages-repo-docs-vue.80ee5772.js" defer></script>
+  </body>
+</html>
